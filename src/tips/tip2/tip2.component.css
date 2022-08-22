@@ -1,0 +1,25 @@
+.tip2  .row img{
+    border-radius: 9px;
+
+}
+img:hover {
+    /* transform: scale(1.1); */
+    opacity: .8;
+}
+
+h2{font-size: 2rem;
+    color:#ff00ff; 
+    font-family: georgia, palatino, serif;
+}
+p{
+    font-weight: 400;
+    font-family: georgia, palatino, serif;
+    padding-top: 15px;
+}
+
+.row2{
+    margin-top: 150px;
+}
+ li{
+    direction: rtl; text-align: right;
+}

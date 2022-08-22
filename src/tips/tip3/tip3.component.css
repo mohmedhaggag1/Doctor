@@ -1,0 +1,13 @@
+
+h2{font-size: 2rem;
+    color:#ff00ff; 
+    font-family: georgia, palatino, serif;
+}
+p{
+    font-weight: 400;
+    font-family: georgia, palatino, serif;
+    padding-top: 15px;
+}
+ul{
+    list-style-type: circle inside; direction: rtl;
+}

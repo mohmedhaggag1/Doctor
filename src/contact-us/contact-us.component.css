@@ -1,0 +1,60 @@
+/* .contact{
+    background-image: url(../assets/img/mam.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+section{
+    margin: 100px 0;
+}
+
+.row{padding: 6px 0px}
+label{display: flex;}
+i , h2{color: #e64a74;}
+
+.topDown{
+    /* animation:  movebounce 5s linear infinite; */
+    animation-name: movebounce;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* السطر ده عشان تطلع وتنزل بانسيابيه  */
+    animation-direction: alternate; 
+    position: absolute;
+}
+
+
+.back {
+    animation-name: rotateme;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left:100px;
+    bottom: -10px;
+}
+
+@keyframes rotateme{
+    from{
+        transform: rotate(0);
+    }
+    to{
+       transform: rotate(360deg);
+    }   
+}
+
+@keyframes movebounce {
+    from{
+        transform:translateY(-10px);
+
+    }
+    to{
+        transform:translateY(100px);
+
+    }
+}

@@ -1,0 +1,22 @@
+.row img{
+    padding-top: 70px;
+    border-radius: 4px;
+    height: 500px;}
+h2{
+    font-size: 2rem;
+    color:#ff00ff; 
+    font-family: georgia, palatino, serif;
+}
+p{
+    font-weight: 400;
+    font-family: georgia, palatino, serif;
+    padding-top: 15px;
+}
+ul ,ol {
+    list-style-type: circle inside; direction: rtl;
+}
+ol li{
+    color: blue;
+    font-weight: bold;
+    padding-top: 2px;
+}
