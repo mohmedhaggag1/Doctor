@@ -1,0 +1,65 @@
+
+i , h2{color: #e64a74;}
+
+.topDown{
+    /* animation:  movebounce 5s linear infinite; */
+    animation-name: movebounce;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* السطر ده عشان تطلع وتنزل بانسيابيه  */
+    animation-direction: alternate; 
+    position: absolute;
+}
+
+
+/* .back {
+    animation-name: rotateme;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left:100px;
+    bottom: -10px;
+}
+
+@keyframes rotateme{
+    from{
+        transform: rotate(0);
+    }
+    to{
+       transform: rotate(360deg);
+    }   
+} */
+
+@keyframes movebounce {
+    from{
+        transform:translateY(-10px);
+
+    }
+    to{
+        transform:translateY(100px);
+
+    }
+}
+
+.ng-invalid .ng-touched{
+    border: 1px solid red;
+}
+
+.ng-valid.ng-touched{
+    border: 1px solid green !important;
+}
+@media (max-width: 768px) {
+    @keyframes movebounce {
+        from{
+            transform:translateY(-1px);
+    
+        }
+        to{
+            transform:translateY(50px);
+    
+        }
+    }
+    .topDown{width: 90px;}   
+}

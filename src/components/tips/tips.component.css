@@ -1,0 +1,30 @@
+
+.box{
+    position: relative;
+    width: 15rem; 
+    height: 16rem;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+   
+}
+.box:hover{
+    transform: rotateY(-180deg);
+    cursor: pointer;
+  transition-delay: .25s;
+}
+.front , .back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.box .front{
+    background-color: #CB759F;
+    color: white;
+}
+.box .back  {
+   width: 15rem; height: 15rem;
+    transform:rotateY(180deg); /* دي عشان اخليه في الخلفيه هو مش يبان ف الاول */
+}
+@media (max-width: 768px) {
+    .box {width: 100%;}
+    .box .back {width: 100%;}
+}

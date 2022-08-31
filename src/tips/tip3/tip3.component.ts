@@ -10,6 +10,10 @@ export class Tip3Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    window.scrollTo({
+      top:0,
+      behavior:'smooth'
+    })
   }
 
 }

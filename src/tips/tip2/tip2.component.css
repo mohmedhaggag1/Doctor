@@ -1,13 +1,12 @@
 .tip2  .row img{
-    border-radius: 9px;
-
+    border-radius: 15px;
 }
 img:hover {
-    /* transform: scale(1.1); */
     opacity: .8;
 }
 
-h2{font-size: 2rem;
+h2{
+    font-size: 1.5rem;
     color:#ff00ff; 
     font-family: georgia, palatino, serif;
 }
@@ -17,9 +16,12 @@ p{
     padding-top: 15px;
 }
 
-.row2{
-    margin-top: 150px;
-}
  li{
     direction: rtl; text-align: right;
+}
+@media (max-width:768px) {
+    ul{
+        margin-right:20px;
+    }
+    
 }
