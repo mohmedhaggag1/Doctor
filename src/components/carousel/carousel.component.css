@@ -1,0 +1,30 @@
+li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+ }
+ li.active{
+    background-color: #5a031d;
+ }
+
+ img{
+   opacity: .8;
+ }
+ 
+@media (max-width : 768px) 
+{
+ a {
+    display: none;
+ }
+}
+
+/* .h{
+   font-weight: 700;
+   font-size: 45px;
+   top: 0%;
+   position: absolute;
+   right: 20px;
+   /* transform: translate(-50%, -50%) 
+} */
+
+

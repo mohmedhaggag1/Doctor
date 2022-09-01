@@ -1,6 +1,11 @@
 .headet-top {
     background-color: #e64a74;
 }
+.fs{font-size: 12px !important}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 52px;
+}
 
 .navbar{
     background-color: #5a031d !important;
@@ -35,3 +40,10 @@
     color: white !important;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .dropdown{
+        margin-bottom: 6px !important;
+    }
+}
+

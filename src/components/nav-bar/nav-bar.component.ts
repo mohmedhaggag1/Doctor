@@ -11,4 +11,10 @@ export class NavBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  closeNavbar() {
+    if (window.innerWidth <(992)){
+    let x = document.getElementById('collapsed');
+    x?.click();
+    }
+  }
 }
