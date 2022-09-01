@@ -11,20 +11,20 @@ li{
    opacity: .8;
  }
  
-@media (max-width : 768px) 
-{
- a {
-    display: none;
+ 
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   .h{
+      font-size: 40px !important;
+      color: #5a031d !important;
+      font-family: inherit !important;
+      font-weight: bold !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      bottom: 250% !important;
+      position: absolute;
+      width: 80%;
+      left: 20%;
+   }
  }
-}
-
-/* .h{
-   font-weight: 700;
-   font-size: 45px;
-   top: 0%;
-   position: absolute;
-   right: 20px;
-   /* transform: translate(-50%, -50%) 
-} */
-
-
