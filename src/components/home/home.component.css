@@ -1,0 +1,7 @@
+.content{position: relative;}
+.overlay{
+    position: absolute;
+    background-color: rgba(230, 74, 116, 0.5);
+    width: 100%;
+    height: 100%;
+}

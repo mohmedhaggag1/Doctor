@@ -28,3 +28,27 @@ li{
       left: 20%;
    }
  }
+
+
+ .loading { 
+   position: absolute;
+    content: '';
+    height: 10px;
+    background-color: #5a031d;
+    right: 0;
+    animation-name: loadingLine;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ #one:hover ~ #loading { 
+   animation-play-state: paused;
+  }
+ @keyframes loadingLine {
+   from {
+      width: 4%;
+   }
+   to{
+      width: 100%;
+   }
+   
+ }
