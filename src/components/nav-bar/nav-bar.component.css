@@ -4,7 +4,7 @@
 .fs{font-size: 12px !important}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    top: 52px;
+    top: 48px;
 }
 
 .navbar{
@@ -22,7 +22,7 @@
 .navbar-collapse ul li a {
     color: white;
     padding: 8px 16px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight:bold;
 }
 

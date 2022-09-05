@@ -63,7 +63,7 @@
                 <a class="nav-link text-sm-center" routerLink="/home" routerLinkActive="active">الرئيسية <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item" (click)="closeNavbar()">
-                <a class="nav-link" routerLink="about-DrAya" routerLinkActive="active">نبذة عن د / آيه</a>
+                <a class="nav-link" routerLink="Aboutus" routerLinkActive="active">نبذة عن د / آيه</a>
             </li>
             <li class="nav-item dropdown" dir="rtl">
                 <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -71,13 +71,13 @@
                     التخصصات التي تقدمها العيادة 
                 </a>
                 <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" (click)="closeNavbar()" >متابعة الحمل </a>
-                    <a class="dropdown-item" (click)="closeNavbar()">ولادةبدون ألم </a>
+                    <a class="dropdown-item" routerLink="/specialties/متابعة-الحمل" (click)="closeNavbar()" >متابعة الحمل </a>
+                    <a class="dropdown-item" routerLink="/specialties/ولادة-بدون-آلام" (click)="closeNavbar()">ولادةبدون ألم </a>
                     <!-- <div class="dropdown-divider"></div> -->
-                    <a class="dropdown-item" (click)="closeNavbar()"> الفحص المبكر للأورام </a>
-                    <a class="dropdown-item" (click)="closeNavbar()">علاج العقم </a>
-                    <a class="dropdown-item" (click)="closeNavbar()">تنظيم الاسرة</a>
-                    <a class="dropdown-item" (click)="closeNavbar()">الحقن المجهري </a>
+                    <a class="dropdown-item" routerLink="/specialties/وسائل-منع-الحمل" (click)="closeNavbar()"> وسائل منع الحمل</a>
+                    <a class="dropdown-item" routerLink="/specialties/تنظيم-الأسرة" (click)="closeNavbar()">تنظيم الأسرة</a>
+                    <a class="dropdown-item" routerLink="/specialties/تأخر-اللإنجاب" (click)="closeNavbar()"> علاج تأخر الإنجاب </a>
+                    <a class="dropdown-item" routerLink="/specialties/الإجهــــاض" (click)="closeNavbar()">علاج الإجهاض المتكرر</a>
                 </div>
             </li>
             <li class="nav-item" (click)="closeNavbar()">

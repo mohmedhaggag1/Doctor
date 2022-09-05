@@ -17,6 +17,14 @@ const appRoutes: Routes = [
     path:'tip',
     loadChildren: () => import('./tips/tips.module').then(m => m.TipsModule)
   },
+  {
+    path:'specialties',
+    loadChildren: () => import('./ourservices/ourservices.module').then(m => m.OurservicesModule)
+  },
+  {
+    path:'Aboutus',
+    loadChildren: () => import('./aboutdoctor/aboutdoctor.module').then(m => m.AboutdoctorModule)
+  },
 ];
 
 @NgModule({

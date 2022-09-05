@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-center my-3">
-                        <button type="submit" class="btn btn-primary">إرســـــــال</button>
+                        <button type="submit" class="btn btn-primary" [disabled]="form.invalid">إرســـــــال</button>
                     </div>
                 </form>
               
@@ -73,15 +73,18 @@
             <div class="col-md-3 text-center d-flex flex-column">
                 <div>
                     <i class="fa fa-map-marker fa-2x"></i>
-                    <p>القناطر الخيرية - القليوبية </p>
+                    <p>
+                    <a _ngcontent-djr-c16="" href="https://goo.gl/maps/NhZJxQg8q1EjNGRr7" target="_blank" class="text-dark"> القناطر الخيرية - القليوبية</a>
+                        
+                    </p>
                 </div>
                 <div>
                     <i class="fa fa-phone mt-4 fa-2x"></i>
-                    <p> 010924433</p>
+                    <p><a class="text-dark" href="tel: 01098024433 ">01098024433</a></p>
                 </div>
                 <div>
                     <i class="fa fa-envelope mt-4 fa-2x"></i>
-                    <p>ayaHaggag@gmail.com</p>
+                    <p><a class="text-dark" href="mailto:ayaHaggag@gmail.com">ayaHaggag@gmail.com</a></p>
                 </div>
             </div>
         </div>

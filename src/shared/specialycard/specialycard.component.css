@@ -2,7 +2,9 @@
 .no-gutters{
     background-color: antiquewhite;
 }
-
+h5{
+    color: brown !important;
+}
 .no-gutters:hover{
     background-color:palevioletred;
     -webkit-box-shadow: -2px -1px 15px 7px rgba(160, 55, 55, 0.5);
