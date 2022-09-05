@@ -14,6 +14,11 @@
     z-index: 10000;
 }
 
+.navbar-light .navbar-toggler-icon{
+    filter: grayscale(0%);
+    filter: invert(1);
+}
+
 .location-div a:hover ,.mob-div a:hover{
     color: #e64a74 !important;
     text-decoration: none;

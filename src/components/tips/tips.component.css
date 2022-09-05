@@ -12,6 +12,10 @@
     cursor: pointer;
   transition-delay: .25s;
 }
+.tip{
+        font-size: 40px;
+        font-weight: 900;
+}
 .front , .back{
     position: absolute;
     backface-visibility: hidden;
