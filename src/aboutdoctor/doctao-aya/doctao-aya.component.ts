@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common'
 
 @Component({
   selector: 'app-doctao-aya',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DoctaoAyaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private location : Location) { }
 
   ngOnInit(): void {
+    window.scrollTo({
+      top:0,
+      behavior:'smooth'
+    })
   }
-
+  back(): void {
+    this.location.back()
+  }
 }
