@@ -19,7 +19,7 @@ li{
   filter: drop-shadow(2px 4px 6px black);
  }
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px){ 
    .h{
       font-size: 55px !important;
       color: #5a031d !important;
@@ -61,6 +61,14 @@ li{
       width: 100%;
    }
  }
+
+ @media (max-width: 768px){
+  .loading{
+    height:2px !important;
+    /* display: none; */
+  }
+}
+
 
 
 /*  
